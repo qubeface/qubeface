@@ -27,6 +27,7 @@ QubeFace is a JavaScript library that helps to create easy CSS 3D cubes for form
 
 ## Hints
 - QubeFace uses pure JavaScript, so it's completely independent from other libs
+- QubeFace uses CSS for the 3D effects 
 - tested in Chrome, Firefox, Edge, Opera, Safari and Android-Browser
 - no support for Internet Explorer
 
@@ -48,7 +49,6 @@ How to create a cube with QubeFace:
 </div>
 
 <script>
-
 	// 2.) QubeFace definition
 	var qube1 = new QubeFace({
 		id: "myQube1", 
@@ -65,7 +65,6 @@ How to create a cube with QubeFace:
 	
 	// 3.) QubeFace initialization
 	qube1.init();
-
 </script>	
 ```
 
