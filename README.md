@@ -1,29 +1,24 @@
 # QubeFace
 
-## - Create easy 3D cubes -
+## - Create 3D cubes easily -
 
-QubeFace is a JavaScript library that helps to create easy CSS 3D cubes for forms, images or other web content.
+QubeFace is a JavaScript library that helps to create easily CSS 3D cubes for forms, images or other web content.
 
 ## Features
-- easy and flexible creation of 3D cubes
+- flexible creation of 3D cubes in size and color
 - suitable for general website content (forms, pictures, videos, texts, SVG, ...)
 - animated spin actions (configurable)
-- it's possible to enable permanent vertical or horizontal auto-spinning
-- swipe ability for touch display and mouse (configurable)
-- swipe stop for temporal swipe prevention
-- swipe event handler
-- cubes can be created in any size
-- it's possible to resize created cubes
-- configurable colors
-- it's possible to use the auto-disable function for forms
+- swipe ability for touch displays and mouse swiping (configurable)
+- swipe event handler and swipe stop for temporal swipe prevention
+- resize function
+- borders (configurable)
 - animated explosion effect (configurable)
-- it's possible to use border
-- different changes of perspective are possible
-- instant display of a cube face is possible 
-- much more settings and methods
-- initial definition of the cube faces via HTML and JavaScript is possible
-- Setter methods for dynamic content changes
-
+- auto-disable function for forms (configurable)
+- different perspectives (configurable)
+- instant displaying function
+- initial definition of the cube faces via HTML and JavaScript
+- Setter for dynamic content changes
+- function to enable permanent vertical or horizontal auto-spinning
 
 ## Hints
 - QubeFace uses pure JavaScript, so it's completely independent from other libs
