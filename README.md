@@ -5,7 +5,7 @@
 QubeFace is a JavaScript library that helps to create easily CSS 3D cubes for forms, images or other web content.
 
 ## Features
-- flexible creation of 3D cubes in size and color
+- flexible creation of 3D cubes in any size and color
 - suitable for general website content (forms, pictures, videos, texts, SVG, ...)
 - animated spin actions (configurable)
 - swipe ability for touch displays and mouse swiping (configurable)
