@@ -109,7 +109,7 @@ QubeStar and QubeControl provide a more user friendly swipe and spin gesture. Qu
 		sizePx: 70, 
 		spinDurationSeconds: 0.4, 
 		backgroundColor: "rgba(32, 178, 170, 0.5)", 
-		endElementContent: '✓', // put here a strinv value or a HTML string as content
+		endElementContent: '✓', // use here a string or a HTML string as content
 		perspectivePx: 600,
 		items:[
 			{itemId:1, value:"a1", content: "Con1"},
