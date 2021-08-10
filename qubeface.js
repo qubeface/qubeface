@@ -614,7 +614,7 @@ function QubeFace(obj) {
 		ele.setAttribute("style", cnBeforeAnim + ' ' + tmpStyles);
 	};
 	
-	// infinte spinning the cube vertical (starts on front-face)
+	// infinite spinning the cube vertical (starts on front-face)
 	this.autoSpinX = function (rotationSeconds, isSpinningRight, isRotatedBack) {
 		// define default values of function parameters
 		if (isSpinningRight == null){ isSpinningRight = true; }
@@ -631,7 +631,7 @@ function QubeFace(obj) {
 		}
 	};
 	
-	// infinte spinning the cube horizontal (starts on front-face)
+	// infinite spinning the cube horizontal (starts on front-face)
 	this.autoSpinY = function (rotationSeconds, isSpinningDown) {
 		// define default values of function parameters
 		if (isSpinningDown == null){ isSpinningDown = true; }
@@ -862,7 +862,7 @@ function QubeFace(obj) {
 	};
 
 	// reset transform part style (value example for translateX can be "100px" or for rotateX "90deg", transformPart example: "skew"/"translate"/"rotate"/"translateX"/"rotateZ"/...)
-	// (tip: if we also set style "transition" before the call, then we can use an animated effect)
+	// (Tip: If we also use the parameter "transition" with "1s", then we can use an animated effect. If we also set style "transition" before the call, then we can use also an animated effect for the resize method.)
 	this.resetTransformPart = function(node, transformPart, value, isAdditionalIfNotExist, transition) {
 		var e = node;
 		if (e == null) { return; }
