@@ -386,7 +386,7 @@ function QubeControl(obj) {
 	};
 	
 	// skip to next by ignoring the adding of values to the up/down/right/left arrays
-	this.skipToNext = function(spinDirection, isSkipping) {
+	this.skipToNext = function(spinDirection) {
 		this.spinToNext(spinDirection, true);
 	};
 	
@@ -633,7 +633,7 @@ function QubeStar(obj) {
 	this.boardSizePx = null; // star board size in pixels
 	this.arrowWidthPercent = null; // direction arrows width in percent (0 till 100)
 	this.arrowHeightPercent = null; // direction arrows height in percent (0 till 100)
-	this.arrowTranslate = null; // translate direction arrows up or down between (-50 till 90)
+	this.arrowTranslate = null; // translate direction arrows up or down (between -50 till 90)
 	this.hasClickableArrows = true; // enable clickable arrows as default (by special overlay), otherwise just the arrow text is clickable
 	this.isPagingMode = false; // this determines the direction button effect of the cube spinning as paging mode or categorize mode (default is 'false')
 	
@@ -732,7 +732,7 @@ function QubeStar(obj) {
 	};
 	
 	// skip to next item by ignoring the adding of values to the up/down/right/left arrays
-	this.skipToNext = function(spinDirection, isSkipping) {
+	this.skipToNext = function(spinDirection) {
 		this.qubeControl.spinToNext(spinDirection, true);
 	};
 	
