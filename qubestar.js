@@ -765,7 +765,7 @@ function QubeStar(obj) {
 	this.buildBoardCss = function () {
 		if (qubeFa == null) { return; }
 
-		var css = " .qubeStarRow { text-align:center; width:100%; position:relative; } "
+		var css = " .qubeStar { line-height:normal; } .qubeStarRow { text-align:center; width:100%; position:relative; } "
 		+ ".qubeStarCenter { display: inline-block; } "
 		+ ".qubeVerticalCenter { margin: 0; position: absolute; top: 50%; transform: translateY(-50%); } "
 		+ ".qubeStarLabel { margin: 0 2px; user-select: none; -webkit-touch-callout: none; user-drag: none; } "
