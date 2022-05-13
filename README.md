@@ -96,6 +96,9 @@ It's also possible to use HTML container instead of pure JavaScript. This can be
 	qube2.enableSwipe();
 </script>
 ```
+
+# QubeStar and QubeControl
+
 QubeStar and QubeControl provide a more user friendly swipe and spin gesture. QubeControl can handle items like a web wizard and QubeStar sets the four direction arrows around the cube. See example:
 ```
 <div style="position:relative;top:10px;">
