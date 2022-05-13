@@ -137,6 +137,8 @@ QubeStar and QubeControl provide a more user friendly swipe and spin gesture. Qu
 With the property `boardSizePx` you can change the board size of the board which is around the QubeStar. 
 You can also calibrate the arrow rectangle and his width, height, size and translate distance with the QubeStar properties `arrowWidthPercent`, `arrowHeightPercent` and `arrowTranslate`.
 
+QubeStar and QubeControl are both part of the qubestar.js library which depends on qubeface.js
+
 ## License
 
 MIT
